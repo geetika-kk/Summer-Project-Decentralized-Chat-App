@@ -1,7 +1,5 @@
 import React from "react";
 import { Button, Navbar } from "react-bootstrap";
-
-// This component renders the Navbar of our application
 export function NavBar( props ){
     return (
         <Navbar bg="dark" variant="dark">
