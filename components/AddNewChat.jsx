@@ -1,8 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import { Button, Modal, Form } from "react-bootstrap";
-
-// This Modal help Add a new friend
 export function AddNewChat( props ){
     const [show, setShow] = useState( false );
     const handleClose = () => setShow( false );
