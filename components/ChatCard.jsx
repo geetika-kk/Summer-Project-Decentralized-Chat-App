@@ -1,8 +1,6 @@
 import React from "react";
 import { Row, Card } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-// This is a function which renders the friends in the friends list
 export function ChatCard( props ){
     return (
         <Row style={{ marginRight:"0px" }}>
