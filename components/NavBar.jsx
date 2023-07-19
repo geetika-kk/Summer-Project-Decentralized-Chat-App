@@ -4,13 +4,13 @@ export function NavBar( props ){
     return (
         <Navbar bg="dark" variant="dark">
             <Navbar.Brand href="#home"> 
-                Polygon Chat App 
+                 Chat App 
             </Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse className="justify-content-end">
                 <Navbar.Text> 
                     <Button style={{ display: props.showButton }} variant="success" onClick={ async () => { props.login(); }}>
-                        Connect to Metamask
+                        Connect
                     </Button>
                     <div style={{ display: props.showButton === "none" ? "block" : "none" }}>
                         Signed in as: 
